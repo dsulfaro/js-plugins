@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  border: 1px solid #ddd;
+  width: 600px;
+}
+
+.tabs {
+  list-style-type: none;
+  margin: auto;
+  background-color: #efefef;
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  transition: 0.2s ease;
+}
+
+.tab:hover, .tab:focus, .active {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.tab-info-container {
+  padding-left: 20px;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.fade {
+  animation: fade 0.3s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
