@@ -1,0 +1,12 @@
+.modal {
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+  display: none;
+}
+
+button {
+  padding: 10px 15px;
+}
