@@ -1,0 +1,29 @@
+input {
+  width: 285px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 300px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white:
+}
+
+td {
+  padding: 5px;
+}
+
+#headers > th {
+  padding: 5px 10px;
+}
+
+td {
+  width: 28%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
